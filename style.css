@@ -1,0 +1,59 @@
+body{
+    background: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #EF233C;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h3{
+    color: #2B2D42 ;
+    font-size: xx-large;
+    text-decoration: dashed underline;
+}
+
+article{
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+.div{
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+a:link{
+    color: #D90429 ;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #2B2D42;
+}
+
+span{
+    color: red;
+}
+
+/* CSS gallerie*/
+

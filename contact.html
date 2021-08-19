@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div></div>
+        <h1>Bienvenue sur mon site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallerie.html">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="php.php" method="POST">
+            <fieldset>
+                <legend>Legend</legend>
+            <div>
+                <label for="text">Name: <span>*</span></label>
+                <input type="text" name="text" placeholder="Entrez votre nom" minlength="2" maxlength="20" required><br>
+            </div> 
+            <div>   
+                <label for="mail">Email:<span>*</span></label>
+                <input type="mail" name="mail" placeholder="Entrez votre email" required><br>
+            </div>
+            <div> 
+                <label for="textarea">Laissez un commentaire:</label><br>
+                <textarea name="textarea" id="textarea" cols="70" rows="10" placeholder="Entrez votre texte">
+                </textarea><br>
+            </div>
+            <div>
+                <label for="checkbox">Envoyer une copie: </label>
+                <input type="checkbox" checked><br>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Réinitialiser">
+            </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
